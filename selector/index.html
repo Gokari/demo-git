@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+    <h1>CSS Selectors</h1>
+    <h2>Apply CSS to different parts of HTML</h2>
+    <p class="note">1. The element selector targets </P>
+    <!-- <h1 class="heading"> Heading class </h1>
+<h1 class="heading" id="id_att">hello</h1>
+<p draggable="true">Draggable is true</p>
+<p draggable="false">Draggable is false</p>
+<p draggable="false">Draggable is false</p> -->
+</body>
+</html>
+
+<!-- 
+selectors 
+
+class name - .className
+id name - #idName
+attribute name - tagName[attName]
+universal  - * 
+
+Notes : with class name we can style many elements at a time
+where a with id we can style only one element as idmust be unique in that html file
+lat say we have both id and class att for an element 
+we used same style att with different value for tat element 
+styling with id will take high precendance then class 
+
+
+attribute name styling :
+if the attribute value is boolean : we can style the element based on boolean value of element.
+
+for above example :
+
+p[draggable]{
+any style
+}
+
+it will be applied for all p tages where draggable att available.
+
+p[draggable=true]{
+any style
+}
+
+it will apply style where draggable is true for p element. 
+-->
